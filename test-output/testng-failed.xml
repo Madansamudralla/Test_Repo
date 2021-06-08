@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PizzaHut_web]">
+  <test thread-count="5" name="PizzaApp test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.Pizzahut.testCases.TC_LogoutTest_005">
+        <methods>
+          <include name="logOut"/>
+          <include name="setup"/>
+          <include name="terminate"/>
+        </methods>
+      </class> <!-- com.Pizzahut.testCases.TC_LogoutTest_005 -->
+      <class name="com.Pizzahut.testCases.TC_OrderplaceTest_002">
+        <methods>
+          <include name="orderPlace"/>
+          <include name="setup"/>
+          <include name="terminate"/>
+        </methods>
+      </class> <!-- com.Pizzahut.testCases.TC_OrderplaceTest_002 -->
+    </classes>
+  </test> <!-- PizzaApp test(failed) -->
+</suite> <!-- Failed suite [PizzaHut_web] -->

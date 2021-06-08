@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="7" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-08T05:19:29Z" name="PizzaHut_web" finished-at="2021-06-08T05:20:48Z" duration-ms="79283">
+    <groups>
+    </groups>
+    <test started-at="2021-06-08T05:19:29Z" name="PizzaApp test" finished-at="2021-06-08T05:20:48Z" duration-ms="79283">
+      <class name="com.Pizzahut.testCases.TC_LogoutTest_005">
+        <test-method signature="logOut()[pri:0, instance:com.Pizzahut.testCases.TC_LogoutTest_005@50caa560]" started-at="2021-06-08T05:20:42Z" name="logOut" finished-at="2021-06-08T05:20:47Z" duration-ms="5231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+      </class> <!-- com.Pizzahut.testCases.TC_LogoutTest_005 -->
+      <class name="com.Pizzahut.testCases.TC_LoginTest_001">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.Pizzahut.testCases.TC_LoginTest_001@f2ff811]" started-at="2021-06-08T05:19:29Z" name="setup" finished-at="2021-06-08T05:19:54Z" duration-ms="24966" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:0, instance:com.Pizzahut.testCases.TC_LoginTest_001@f2ff811]" started-at="2021-06-08T05:19:54Z" name="loginTest" finished-at="2021-06-08T05:20:12Z" duration-ms="18277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="terminate()[pri:0, instance:com.Pizzahut.testCases.TC_LoginTest_001@f2ff811]" started-at="2021-06-08T05:20:47Z" name="terminate" finished-at="2021-06-08T05:20:48Z" duration-ms="1165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- com.Pizzahut.testCases.TC_LoginTest_001 -->
+      <class name="com.Pizzahut.testCases.TC_OrderplaceTest_002">
+        <test-method signature="orderPlace()[pri:0, instance:com.Pizzahut.testCases.TC_OrderplaceTest_002@568ff82]" started-at="2021-06-08T05:20:12Z" name="orderPlace" finished-at="2021-06-08T05:20:42Z" duration-ms="29592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderPlace -->
+      </class> <!-- com.Pizzahut.testCases.TC_OrderplaceTest_002 -->
+    </test> <!-- PizzaApp test -->
+  </suite> <!-- PizzaHut_web -->
+</testng-results>
