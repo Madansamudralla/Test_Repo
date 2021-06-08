@@ -23,7 +23,7 @@ public class TC_LoginTest_001 extends BaseClass{
     public void loginTest() throws InterruptedException {
 		
 		//driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);		
-		
+			
 		driver.get(baseURL);
 		logger.info("URL is launched");
 		HomePage homepage = new HomePage(driver);
