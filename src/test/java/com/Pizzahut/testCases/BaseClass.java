@@ -10,7 +10,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
-
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
@@ -49,7 +49,7 @@ public class BaseClass {
 	public static Logger logger;
 	
 	  @Parameters("browser")
-	  @BeforeTest
+	  @BeforeClass
 	  public void setup(String br) {
 		  
 	//System.setProperty("WebDriver.chrome.driver", "C:\\Users\\Madan Samudralla\\eclipse-workspace\\PizzaHut_web\\Drivers\\chromedriver.exe");
@@ -77,7 +77,7 @@ public class BaseClass {
 	  	  	  
 	  }
 	    		
-		  @AfterTest
+		  @AfterClass
 		  public void terminate() { 
 			  driver.quit(); 
 			  }
