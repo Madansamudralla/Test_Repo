@@ -32,7 +32,7 @@ public class TC_LoginTest_001 extends BaseClass{
 		signin.setUserName(username);
 		signin.setPassword(password);
 		signin.clicklogin();
-		logger.info("User loged in successfully");
+		logger.info("User logged in successfully");
 		
 		 				
 	}
