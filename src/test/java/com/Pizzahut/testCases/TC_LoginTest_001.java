@@ -25,7 +25,7 @@ public class TC_LoginTest_001 extends BaseClass{
 		//driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);		
 			
 		driver.get(baseURL);
-		logger.info("URL is launched");
+		logger.info("URL is launched successfully");
 		HomePage homepage = new HomePage(driver);
 		homepage.signinlink();
 		SigninPage signin = new SigninPage(driver);
