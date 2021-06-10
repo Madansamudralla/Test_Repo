@@ -4,20 +4,13 @@
   <test thread-count="5" name="PizzaApp test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.Pizzahut.testCases.TC_LogoutTest_005">
+      <class name="com.Pizzahut.testCases.TC_LoginTest_001">
         <methods>
-          <include name="logOut"/>
+          <include name="loginTest"/>
           <include name="setup"/>
           <include name="terminate"/>
         </methods>
-      </class> <!-- com.Pizzahut.testCases.TC_LogoutTest_005 -->
-      <class name="com.Pizzahut.testCases.TC_OrderplaceTest_002">
-        <methods>
-          <include name="orderPlace"/>
-          <include name="setup"/>
-          <include name="terminate"/>
-        </methods>
-      </class> <!-- com.Pizzahut.testCases.TC_OrderplaceTest_002 -->
+      </class> <!-- com.Pizzahut.testCases.TC_LoginTest_001 -->
     </classes>
   </test> <!-- PizzaApp test(failed) -->
 </suite> <!-- Failed suite [PizzaHut_web] -->
