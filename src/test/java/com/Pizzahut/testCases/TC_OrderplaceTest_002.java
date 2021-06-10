@@ -17,6 +17,7 @@ public class TC_OrderplaceTest_002 extends BaseClass{
 	
 	homepage.searchCitynArea();	
 	homepage.citySelection();
+	logger.info("User selected the City");
 	homepage.areaSelection();
 	homepage.findStore();
 	logger.info("User selected the STORE");
